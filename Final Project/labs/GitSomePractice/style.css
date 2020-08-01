@@ -1,0 +1,17 @@
+/* Nakia Crumbo, 7/26/2020, GitPractice, style.css */
+
+body {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin: 10%;
+}
+
+.spring-image {
+  height: auto;
+  width: auto;
+}
+
+.jumbotron {
+  background-color: #333;
+}
