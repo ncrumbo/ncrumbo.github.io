@@ -1,0 +1,51 @@
+/* Nakia Crumbo, 7/31/2020, Final Project, styles.css */
+
+.video-bg-content {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.main-bgcolor {
+  background-color: #ff6666;
+  opacity: .35;
+  }
+
+.bgcolor {
+  background-color: #e6e6ff;
+}
+
+.img-bg {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.row-height {
+  min-height: 200px;
+}
+
+.mainpage-spacer {
+  min-height: 300px;
+}
+.aboutpage-spacer {
+  min-height: 100px;
+}
+.resume-spacer {
+  min-height: 75px;
+}
+.bio-width {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+@media (max-width: 578px) {
+  .bio-width {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+}

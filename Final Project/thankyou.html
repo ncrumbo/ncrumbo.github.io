@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Nakia Crumbo, 7/31/2020, Final project, thankyou.html-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Final Project</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/f426ed8b88.js" crossorigin="anonymous"></script>
+  <!-- script for retrieving information from form-->
+  <script>
+  function printQuery() {
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split("=");
+      document.write(pair[0] + ": " + pair[1] + "<br />");
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <header class="container-fluid">
+    <nav class="row p-1 ">
+      <div class="col-sm-2 p-1 text-center">
+        <a class="btn btn-link text-dark btn-block border-0 rounded-0" role="button" href="index.html"> Home </a>
+      </div>
+      <div class="col-sm-2 p-1 text-center">
+        <a class="btn btn-link text-dark btn-block border-0 rounded-0 active" role="button" href="skills.html"> Skills </a>
+      </div>
+      <div class="col-sm-2 p-1 text-center">
+        <a class="btn btn-link text-dark btn-block border-0 rounded-0 active" role="button" href="about.html"> About </a>
+      </div>
+      <div class="col-sm-2 p-1 text-center">
+        <a class="btn btn-link text-dark btn-block border-0 rounded-0" role="button" href="gallery.html"> Gallery </a>
+      </div>
+      <div class="col-sm-2 p-1 text-center">
+        <a class="btn btn-link text-dark btn-block border-0 rounded-0" role="button" href="contact.html"> Contact </a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="bgcolor">
+
+  <!-- contact header -->
+  <h3 class="text-center text-dark p-5">You request has been recieved.</h3>
+
+  <!-- contact feedback and google map container-->
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-10">
+
+        <!-- nested container -->
+        <div class="row">
+
+          <!-- nested paragraph and form-->
+          <div class="col-sm-6">
+
+            <!-- container to displaying information from form-->
+              <h2>Thank you for sending me your comments and requests. I look forward to contacting you shortly.</h2>
+
+              <script>
+              printQuery();
+              </script>
+
+              </div>
+
+          <!-- end of form -->
+          <!-- google embeded map -->
+          <div class="col-sm-6 p-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.796028099858!2d-93.28827718452101!3d37.22881675115395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf62ed1e3877c1%3A0x893f9d462fbd1bfb!2s529%20East%20Pacific%20Street%20Springfield%20MO%2065803!5e0!3m2!1sen!2sus!4v1596067981032!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+    <div class="col-sm-1">
+    </div>
+  </div>
+  </div>
+
+  <!-- spacer -->
+
+  <div class="row row-height">
+  </div>
+
+  </div>
+
+  <!-- bottom navigation -->
+
+  <div class="container-fluid">
+    <nav class="row p-1 text-center">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <!-- nested bottom navigation -->
+        <div class="row p-1 text-center">
+          <div class="btn btn-link col-md-4 col-lg-5 px-4 text-dark"><i class="fas fa-map-marker-alt"></i> 529 E Pacific St Apt 2 • Springfield Mo 65803 </div>
+          <div class="btn btn-link col-md-5 col-lg-4 px-4 text-dark"><i class="fas fa-envelope"></i>nc0900636@otc.edu</div>
+          <div class="btn btn-link col-md-3 col-lg-3 px-4 text-dark"><i class="fas fa-phone-square-alt"></i> 417-438-5442 </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <footer class="bgcolor">
+    <div class="text-center p-2"> Copyright &#169; Nakia Crumbo, July 31, 2020 </div>
+  </footer>
+</body>
+
+</html>
