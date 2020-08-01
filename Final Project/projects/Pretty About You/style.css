@@ -1,0 +1,9 @@
+/* Nakia Crumbo, 6/15/2020, Pretty About You, style.css */
+ul {text-align: center; list-style-type: none;}
+li {text-align: center; font-family: cursive; color: #0000ff; list-style-type: none;}
+div {text-align: center; margin: 0; padding: 0;}
+h2 {text-align: center; font-family: cursive; color: #0000ff;}
+p {text-align: center; font-family: cursive; color: #0000ff; font-size: 24px;}
+body {background-color: #000000;}
+a:link {text-decoration: none;}
+a:active {text-decoration: none;}

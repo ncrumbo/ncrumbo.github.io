@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Nakia Crumbo, 7/31/2020, Bootstrap B&B, contact.html-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap B&B</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/f426ed8b88.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- head navigation bar-->
+  <header class="container-fluid bg-secondary">
+    <nav class="row p-1 ">
+      <div class="col-sm-3 p-1 text-center">
+        <a class="btn btn-outline-info text-white btn-block border-0 rounded-0" role="button" aria-pressed="true" href="index.html">
+          <i class="fas fa-home"></i> Home </a>
+      </div>
+      <div class="col-sm-3 p-1 text-center">
+        <a class="btn btn-outline-info text-white btn-block border-0 rounded-0" role="button" href="#"> Plumeria </a>
+      </div>
+      <div class="col-sm-3 p-1 text-center">
+        <a class="btn btn-outline-info text-white btn-block border-0 rounded-0" role="button" href="#"> Maile </a>
+      </div>
+      <div class="col-sm-3 p-1 text-center">
+        <a class="btn btn-outline-info text-white btn-block border-0 rounded-0 active" role="button" href="#"><i class="fas fa-envelope"></i> Contact Us </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- contact header -->
+  <h1 class="text-center text-info pt-5">Contact Us</h1>
+
+  <!-- contact form and google map container-->
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-10">
+
+        <!-- nested container -->
+        <div class="row">
+          <div class="col-sm-1">
+          </div>
+
+          <!-- nested paragraph and form-->
+          <div class="col-sm-5">
+
+            <p class="p-3">For booking &/or reservation requests, please email us & provide the number of nights you wish to stay & your check out day & date along with any questions you may have. Phone numbers are requested in case of any email
+              address errors
+              for us to be able to reply promptly to you</p>
+
+            <form class="p-2">
+              <div class="form row p-2">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+              <div class="form row p-2">
+                <div class="col">
+                  <input type="email" class="form-control" placeholder="Email@example.com">
+                </div>
+              </div>
+              <div class="form row p-2">
+                <div class="col">
+                  <input type="tel" class="form-control" placeholder="1-(555)-555-5555">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-dark p-2">Get Rates and Availability</button>
+            </form>
+          </div>
+          <!-- end of form -->
+          <!-- google embeded map -->
+          <div class="col-sm-5 p-3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.184960404044!2d-157.74923884912937!3d21.421973779543418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0015399eb53f0b%3A0xf8b93ccbb6bb3ebe!2s804%20Mokapu%20Rd%2C%20Kailua%2C%20HI%2096734!5e0!3m2!1sen!2sus!4v1595906556202!5m2!1sen!2sus"
+              width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          <div class="col-sm-1">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1">
+      </div>
+    </div>
+  </div>
+
+  <!-- spacer -->
+
+  <div class="row row-height">
+  </div>
+
+  <!-- bottom navigation -->
+
+  <div class="container-fluid bg-secondary">
+    <nav class="row p-1 text-center">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <!-- nested bottom navigation -->
+        <div class="row p-1 text-center">
+          <div class="col-md-4 col-lg-5 px-4 text-dark"><i class="fas fa-map-marker-alt"></i> 804 Mokapu Road • Kailua HI 96734 </div>
+          <div class="col-md-5 col-lg-4 px-4 text-dark"><i class="fas fa-envelope"></i> paradisepalmbnb@gmail.com </div>
+          <div class="col-md-3 col-lg-3 px-4 text-dark"><i class="fas fa-phone-square-alt"></i> 808-261-1431 </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      </div>
+    </nav>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <footer>
+    <div class="text-center p-2"> Copyright &#169; Nakia Crumbo, July 31, 2020 </div>
+  </footer>
+</body>
+
+</html>

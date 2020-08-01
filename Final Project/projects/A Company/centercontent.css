@@ -1,0 +1,127 @@
+/* Nakia Crumbo, 6/15/2020, About A Company, centercontent.css */
+
+
+div.lrgbox1 {
+  position: relative;
+  width: auto;
+  height: 400px;
+  background-color: red;
+}
+
+div.box1 img.box1 {
+  height: 400px;
+  width: 400px;
+  background-color: yellow;
+  float: left;
+  margin-left: 16%;
+}
+
+div.box2 img.box2 {
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+  float: left;
+}
+
+div.box3 img.box3 {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+  float: left;
+}
+span.box1 {
+  position: absolute;
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 200px;
+  line-height: 40px;
+  height: 40px;
+  bottom: 50px;
+  left: 385px;
+}
+span.box2 {
+  position: absolute;
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 200px;
+  line-height: 40px;
+  height: 40px;
+  bottom: 50px;
+  left: 785px;
+}
+span.box3 {
+  position: absolute;
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 200px;
+  line-height: 40px;
+  height: 40px;
+  bottom: 50px;
+  left: 1185px;
+}
+
+div.lrgbox2 {
+  position: relative;
+  width: auto;
+  height: 400px;
+  background-color: red;
+}
+
+div.box4 img.box4 {
+  height: 400px;
+  width: 400px;
+  background-color: yellow;
+  float: left;
+  margin-left: 16%;
+}
+
+div.box5 img.box5 {
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+  float: left;
+}
+
+div.box6 img.box6 {
+  height: 400px;
+  width: 400px;
+  background-color: green;
+  float: left;
+}
+
+span.box4 {
+  position: absolute;
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 200px;
+  line-height: 40px;
+  height: 40px;
+  bottom: 50px;
+  left: 385px;
+}
+span.box5 {
+  position: absolute;
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 200px;
+  line-height: 40px;
+  height: 40px;
+  bottom: 50px;
+  left: 785px;
+}
+span.box6 {
+  position: absolute;
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 200px;
+  line-height: 40px;
+  height: 40px;
+  bottom: 50px;
+  left: 1185px;
+}

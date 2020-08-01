@@ -1,0 +1,30 @@
+/* Nakia Crumbo, 7/6/2020, Responsive Hawaiians, responsiveStyles.css*/
+
+.col1, .col2 {
+  width: 45%;
+}
+
+.col3 {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .main-content{
+    width: 100%;
+    float: none;
+  }
+  .sidebar
+  {
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col1, .col2
+  {
+    width: 100%;
+  }
+  .sidebox-1
+  {
+    display: none;
+  }
+}

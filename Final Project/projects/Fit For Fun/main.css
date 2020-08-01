@@ -1,0 +1,363 @@
+/* Nakia Crumbo, 6/27/2020, Fit For Fun Fitness Club, main.css */
+.main {
+  position: relative;
+  height: 4000px;
+  width: auto;
+}
+
+/* main paragraph */
+.paragraph1 {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 500px;
+  width: 1050px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 50px;
+}
+
+.paragraph1head {
+  position: absolute;
+  height: 500px;
+  width: 1050px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: -50px;
+  left: 100px;
+}
+
+.paragraph2 {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 500px;
+  width: 1050px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 50px;
+}
+
+.paragraph2head {
+  position: absolute;
+  height: 500px;
+  width: 1050px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: 290px;
+  left: 150px;
+}
+
+.paragraph3 {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 500px;
+  width: 1050px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 50px;
+  text-align: center;
+}
+
+.paragraph3head {
+  position: absolute;
+  height: 500px;
+  width: 1050px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: 3800px;
+  left: 150px;
+}
+
+/* kickboxing */
+.kickboxing {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 500px;
+  left: 250px;
+}
+
+.kbhead {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 200px;
+  width: 500px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 500px;
+  left: 780px;
+}
+
+.kbpara {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: -55px;
+  left: 0px;
+}
+
+/* bodypump */
+.bodypump {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 900px;
+  left: 250px;
+}
+
+.bphead {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 200px;
+  width: 500px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 900px;
+  left: 780px;
+}
+
+.bppara {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: -55px;
+  left: 0px;
+}
+
+/* body combat */
+.bodycombat {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 1300px;
+  left: 250px;
+}
+
+.bchead {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 200px;
+  width: 500px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 1300px;
+  left: 780px;
+}
+
+.bcpara {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: -55px;
+  left: 0px;
+}
+
+/* step interval */
+.stepinterval {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 1700px;
+  left: 250px;
+}
+
+.sihead {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 200px;
+  width: 500px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 1700px;
+  left: 780px;
+}
+
+.sipara {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: -55px;
+  left: 0px;
+}
+
+/* cross training */
+.crosstraining {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 2100px;
+  left: 250px;
+}
+
+.cthead {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 200px;
+  width: 500px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 2100px;
+  left: 780px;
+}
+
+.ctpara {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: -55px;
+  left: 0px;
+}
+
+/* Advanced cross training */
+.advancedcrosstraining {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 2500px;
+  left: 250px;
+}
+
+.acthead {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 200px;
+  width: 500px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 2500px;
+  left: 780px;
+}
+
+.actpara {
+  position: absolute;
+  height: 100px;
+  width: 700px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: -55px;
+  left: 0px;
+}
+
+/* Spin cycle */
+.spin {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 2900px;
+  left: 250px;
+}
+
+.sphead {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 200px;
+  width: 500px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 2900px;
+  left: 780px;
+}
+
+.sppara {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: -55px;
+  left: 0px;
+}
+
+/* Zumba */
+.zumba {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 3300px;
+  left: 250px;
+}
+
+.zhead {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 200px;
+  width: 500px;
+  color: white;
+  text-shadow: 1px 1px #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  top: 3300px;
+  left: 780px;
+}
+
+.zpara {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  font-size: 2em;
+  font-family: AlfaSlabOne-Regular, sans-serif;
+  font-weight: 400;
+  color: #00ff00;
+  top: -55px;
+  left: 0px;
+}

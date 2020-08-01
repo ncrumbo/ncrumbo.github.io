@@ -1,0 +1,70 @@
+/* Nakia Crumbo, 6/15/2020, Working with Tables lab, table.css */
+body {
+  background-image: url(images/bluebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+table {
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 5px;
+  background-color: black;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+th, td {
+  border: 1px solid limegreen;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+td:hover {
+  background-color: lightgray;
+}
+
+th:hover {
+  background-color: lightgray;
+}
+
+div.table {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.cellheader {
+  color: darkgray;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.topcellpara {
+  color: darkgray;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.bottomcellpara {
+  color: darkgray;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+.date {
+  color: #333333;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,36 @@
+/* Nakia Crumbo, 7/9/2020, Flexing with FlexBoxes #1, style.css */
+
+body {
+  height: 800px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  margin: .5px;
+  padding: .5px;
+}
+
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child01, .child02, .child03, .child04, .child05, .child06, .child07, .child08, .child09, .child10, .child11, .child12, .child13, .child14, .child15, .child16, .child17, .child18, .child19, .child20 {
+  background-color: red;
+  flex-basis: 150px;
+  height: 50px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.child01, .child02, .child03, .child04, .child05, .child06, .child07, .child08, .child09, .child10, .child11, .child12, .child13, .child14, .child15, .child16, .child17, .child18, .child19 {
+  flex-grow: 1;
+}
+
+.child20 {
+  flex-grow: 2;
+}

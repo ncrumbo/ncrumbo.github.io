@@ -1,0 +1,38 @@
+/* Nakia Crumbo, 7/6/2020, Responsive Travel, response.css*/
+
+.destination-container{
+  width: 90%;
+  text-align: center;
+}
+.main-foot{
+  width: 90%;
+  text-align: center;
+}
+.main-head{
+  width: 90%;
+  text-align: center;
+}
+.main-content{
+  width: 90%;
+  text-align: center;
+}
+.col1, .col2 {
+  width: 45%;
+}
+.col3 {
+  width: 95%;
+}
+
+@media screen and (max-width: 670px) {
+  .col1, .col2 {
+    width: 100%;
+  }
+  .main-content{
+    width: 100%;
+    text-align: center;
+  }
+  .destination-container{
+    width: 100%;
+    text-align: center;
+  }
+}

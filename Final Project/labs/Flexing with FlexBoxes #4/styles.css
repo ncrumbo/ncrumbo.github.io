@@ -1,0 +1,135 @@
+/* Nakia Crumbo, 7/9/2020, Flexing with FlexBoxes #4, style.css */
+/* Mobile breakpoint */
+.parent-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .main-content, .aside1, .aside2, .footer {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.header {
+  background-color: #ff6348;
+}
+
+.main-content {
+  background-color: #03bfff;
+}
+
+.aside1 {
+  background-color: #ffd701;
+}
+
+.aside2 {
+  background-color: #ff69b4;
+}
+
+.footer {
+  background-color: #90ee90;
+}
+
+/* Tablet breakpoint */
+@media only screen and (min-width: 568px) {
+  .parent-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .header, .main-content, .footer {
+    flex-basis: 100%;
+  }
+
+  .aside1, .aside2 {
+    flex-grow: 1;
+  }
+
+  .header, .main-content, .aside1, .aside2, .footer {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .header {
+    background-color: #ff6348;
+  }
+
+  .main-content {
+    background-color: #03bfff;
+  }
+
+  .aside1 {
+    background-color: #ffd701;
+  }
+
+  .aside2 {
+    background-color: #ff69b4;
+  }
+
+  .footer {
+    background-color: #90ee90;
+  }
+}
+
+/* Desktop breakpoint */
+@media only screen and (min-width: 769px) {
+  .parent-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .header, .footer {
+    flex-basis: 100%;
+  }
+
+  .aside1, .aside2 {
+    flex-grow: 1;
+    flex-basis: 15%;
+  }
+
+  .main-content {
+    flex-grow: 3;
+    flex-basis: 50%;
+  }
+
+  .header, .main-content, .aside1, .aside2, .footer {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .header {
+    background-color: #ff6348;
+    order: 0;
+  }
+
+  .aside1 {
+    background-color: #ffd701;
+    order: 1;
+  }
+
+  .main-content {
+    background-color: #03bfff;
+    order: 2;
+  }
+
+  .aside2 {
+    background-color: #ff69b4;
+    order: 3;
+  }
+
+  .footer {
+    background-color: #90ee90;
+    order: 4;
+  }
+}

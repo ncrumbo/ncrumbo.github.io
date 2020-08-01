@@ -1,0 +1,18 @@
+/* Nakia Crumbo, 6/15/2020, About A Company, header.css */
+
+/* Header */
+header {
+  position: relative;
+  background-color: #e60000;
+  color: blue;
+  text-shadow: 1px 1px black;
+  height: 220px;
+  width: auto;
+}
+
+div.header {
+  position: relative;
+  height: 170px;
+  top: 60px;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+/* Nakia Crumbo, 6/27/2020, Fit For Fun Fitness Club, form.css */
+body {
+  background-image: url(images/bluebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background: #508ec7;
+}
+
+.formcontainer {
+  position: relative;
+  margin: 12px;
+  height: 850px;
+  width: 450px;
+  background: #eeeeee;
+  padding: 25px;
+  border-radius: 5px;
+  left: 37%;
+  text-align: left;
+}
+
+h2.form {
+  text-align: center
+}
+
+label.contact {
+  display: block;
+  position: relative;
+  padding: 5px;
+}
+
+.submit {
+  width: initial;
+  position: initial;
+}
+
+.fieldpad {
+  padding: 5px;
+}
+
+/* need to fix */
+.timeofday {
+  position: relative;
+  float: left;
+}

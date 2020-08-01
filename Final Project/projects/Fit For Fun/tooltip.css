@@ -1,0 +1,70 @@
+/* Nakia Crumbo, 6/15/2020, Working with Tables lab, tooltip.css */
+.tooltip {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.tooltip .right {
+  min-width: 300px;
+  min-height: 100px;
+  top: 50%;
+  left: 100%;
+  margin-left: 20px;
+  transform: translate(0, -50%);
+  padding: 10px 20px;
+  padding-top: 19%;
+  color: #333333;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 100;
+  box-sizing: border-box;
+  border: 2px solid red;
+  box-shadow: 2px 2px 12px #00ff00;
+  display: none;
+}
+
+.tooltip:hover .right {
+  display: block;
+}
+
+.tooltip .right i {
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -12px;
+  width: 12px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.tooltip .right i::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 0;
+  top: 50%;
+  transform: translate(50%, -50%) rotate(-45deg);
+  background-color: #FFFFFF;
+  border: 2px solid red;
+  box-shadow: 2px 2px 12px #00ff00;
+}
+
+.headerfont {
+  font-family: sans-serif;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.parafonttop {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.parafontbottom {
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}

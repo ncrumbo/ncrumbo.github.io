@@ -1,0 +1,12 @@
+/* Nakia Crumbo, 7/31/2020, Bootstrap B&B, styles.css */
+
+.amenities-bg {
+  background: url("images/background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100px;
+}
+.row-height {
+  min-height: 200px;
+}

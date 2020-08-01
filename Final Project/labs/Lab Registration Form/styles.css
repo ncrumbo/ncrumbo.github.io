@@ -1,0 +1,29 @@
+/* Nakia Crumbo, 6/15/2020, Lab: Registration Form, style.css */
+
+body {
+  background-image:url(../images/makeAppt.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  background: #508ec7;
+}
+.container {
+  margin:auto;
+  width:80%;
+  background: #eeeeee;
+  padding:25px;
+  border-radius: 5px;
+
+}
+h2 {
+  text-align: center
+}
+label.contact {
+  display: block;
+  position: relative;
+  float: left;
+  padding-left: 5px;
+}
+.submit {
+  width: initial;
+  position: initial;
+}

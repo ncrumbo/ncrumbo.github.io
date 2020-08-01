@@ -1,0 +1,46 @@
+/* Nakia Crumbo, 7/9/2020, Flexing with FlexBoxes #3, style.css */
+body {
+  height: 750px;
+  outline-width: 1px;
+  outline-style: dotted;
+  outline-color: red;
+}
+
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.box01, .box02, .box03, .box04, .box05 {
+  height: 100px;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: black;
+}
+
+.box01 {
+  flex-basis: 100%;
+  background-color: red;
+}
+
+.box02 {
+  flex-basis: 60%;
+  background-color: blue;
+}
+
+.box03 {
+  flex-basis: 40%;
+  background-color: green;
+}
+
+.box04 {
+  flex-basis: 50%;
+  background-color: yellow;
+}
+
+.box05 {
+  flex-basis: 50%;
+  background-color: purple;
+}

@@ -1,0 +1,29 @@
+/* Nakia Crumbo, 7/9/2020, Flexing with FlexBoxes #2, style.css */
+
+body {
+  border-width: 1px;
+  border-style: double;
+  border-color: black;
+}
+
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.box01, .box02, .box03 {
+  flex-basis: 200px;
+  width: 200px;
+  height: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+.box01, .box03 {
+  background-color: red;
+  flex-grow: 1;
+}
+.box02 {
+  flex-grow: 5;
+}

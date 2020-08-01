@@ -1,0 +1,19 @@
+/* Nakia Crumbo, 6/27/2020, Fit For Fun Fitness Club, style.css */
+body {
+  background-color: white;
+  background-image: url(images/bluebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@font-face {
+  font-family: AlfaSlabOne-Regular;
+  src: url(fonts/AlfaSlabOne-Regular.ttf);
+}
+
+/* resets all margins and padding */
+* {
+  margin: 0px;
+  padding: 0px;
+}

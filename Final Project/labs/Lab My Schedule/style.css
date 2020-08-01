@@ -1,0 +1,40 @@
+/* Nakia Crumbo, 6/15/2020, Working with Tables lab, style.css */
+body {
+  background-image: url(bluebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+table {
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 5px;
+  background-color: black;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid limegreen;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+td:hover {
+  background-color: lightgray;
+}
+
+th:hover {
+  background-color: lightgray;
+}
+
+div.table {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+}

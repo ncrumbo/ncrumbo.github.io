@@ -1,0 +1,40 @@
+/* Nakia Crumbo, 7/6/2020, Responsive Travel, main.css */
+.container{
+  width:90%;
+  margin:auto;
+  max-width: 1200px;
+  background-color: white;
+  padding-left: 6%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+}
+.cols {
+  padding: 50px 10px 5px 10px;
+  line-height: 1.5
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+.col1, .col2, .col3 {
+  float:left;
+  width:30%;
+  margin-right:5%;
+}
+
+.col3{
+  margin-right: 0%;
+}
+.main-content{
+  width: 65%;
+	float: left;
+	margin-right: 5%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

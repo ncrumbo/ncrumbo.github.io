@@ -1,0 +1,11 @@
+/* Nakia Crumbo, 6/15/2020, About A Company, style.css */
+body {
+  background-color: lightgray;
+}
+
+/* resets all margins and padding */
+* {
+  font-family: helvetica;
+  margin: 0px;
+  padding: 0px;
+}

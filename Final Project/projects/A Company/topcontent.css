@@ -1,0 +1,42 @@
+/* Nakia Crumbo, 6/15/2020, About A Company, topcontent.css */
+
+div.wrapper {
+  position: relative;
+  background-color: red;
+  height: 1450px;
+  width: auto;
+}
+div.topmain {
+  position: relative;
+  background-color: #e60000;
+  margin: 0px;
+  height: 200px;
+  width: auto;
+}
+span.toptitle {
+  position: relative;
+  font-size: 75px;
+  color: blue;
+  text-shadow: 1px 1px black;
+  margin: 0px;
+  top: 90px;
+  left: 100px;
+}
+
+span.topcontent {
+  position: relative;
+  color: blue;
+  font-size: 30px;
+  text-shadow: 1px 1px black;
+  margin: 0px;
+  top: 150px;
+  left: 220px;
+}
+img.topmainimg {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  top: -150px;
+  left: 950px;
+  margin-bottom: 0px;
+}

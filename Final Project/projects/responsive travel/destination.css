@@ -1,0 +1,50 @@
+
+/* Nakia Crumbo, 7/6/2020, Responsive Travel, destination.css */
+
+.destination-container {
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+  color: #333;
+  padding-left: 6%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+  background-image: url("bali-images/bali-indonesia.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px 800px;
+}
+
+.cols {
+  padding: 50px 10px 5px 10px;
+  line-height: 1.5
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+
+.col1 {
+  padding-top: 800px;
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  padding-left: 15%;
+}
+
+.col3 {
+  margin-right: 0%;
+}
+
+.main-content {
+  width: 65%;
+  float: left;
+  margin-right: 5%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

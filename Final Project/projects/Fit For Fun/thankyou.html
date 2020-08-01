@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Nakia Crumbo, 6/27/2020, Fit For Fun Fitness Club, thankyou.html-->
+  <meta charset="utf-8">
+  <!-- script for retrieving information from form-->
+  <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+  <title>Fit For Fun Fitness Club</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menubar.css">
+  <link rel="stylesheet" href="head.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="head">
+    <h2>Fit For Fun Fitness Club</h2>
+  </header>
+  <!-- head div for css-->
+  <div class="head">
+  </div>
+
+  <!-- menu bar-->
+  <div class="container">
+    <nav class="skew">
+      <!-- logo is purposely created to be oversized -->
+      <img class="logoimg" src="images/Fit4FunLogoGray.png" alt="Logo" height="120" width="250">
+      <ul>
+        <li class="color1"><a href="index.html">Home</a></li>
+        <li class="color2"><a href="classes.html">Classes</a></li>
+        <li class="color3"><a href="#">Member Info</a></li>
+      </ul>
+    </nav>
+  </div>
+  <br>
+  <!-- main content-->
+
+  <div class="thankyou-main">
+    <!-- container to displaying information from form-->
+    <div class="formcontainer">
+      <h2 class="form">Thank you for sending us your comments or requests! We will be in touch soon!</h2>
+
+      <script>
+        printQuery();
+      </script>
+    </div>
+
+  </div>
+  <br>
+  <!-- bottom content-->
+  <div class="bottom">
+  </div>
+
+  <!-- footer content-->
+  <footer>
+
+    <div class="footcontainer">
+
+      <div class="hours">
+        <span class="operation">Hours of Operation</span><br>
+        <span>Mon - Fri: Open 24 Hours</span><br>
+        <span>Sat: Open 24 Hours</span><br>
+        <span>Sun: Open 24 Hours</span>
+      </div>
+
+      <div class="address">
+        Fit For Fun Fitness Club <br>
+        3777 N. State Hwy. H, <br>
+        Springfield, MO 65803 <br>
+        (417) 447-7500
+
+      </div>
+
+      <div class="footerlinks">
+        <ul class="links">
+          <li class="links"><a href="index.html" class="links">Home</a>
+          </li>
+          <li class="links"><a href="classes.html" class="links">Classes</a>
+          </li>
+          <li class="links"><a href="info.html" class="links">Member Info</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <p class="copyright"> Nakia Crumbo, June 27 2020, Copyright &#169;</p>
+  </footer>
+</body>
+
+</html>

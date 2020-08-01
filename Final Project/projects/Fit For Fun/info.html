@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Nakia Crumbo, 6/27/2020, Fit For Fun Fitness Club, info.html-->
+  <meta charset="utf-8">
+  <title>Fit For Fun Fitness Club</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menubar.css">
+  <link rel="stylesheet" href="head.css">
+  <link rel="stylesheet" href="info-main.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="head">
+    <h2>Fit For Fun Fitness Club</h2>
+  </header>
+  <!-- head div for css-->
+  <div class="head">
+  </div>
+
+  <!-- menu bar-->
+  <div class="container">
+    <nav class="skew">
+      <!-- logo is purposely created to be oversized -->
+      <img class="logoimg" src="images/Fit4FunLogoGray.png" alt="Logo" height="120" width="250">
+      <ul>
+        <li class="color1"><a href="index.html">Home</a></li>
+        <li class="color2"><a href="classes.html">Classes</a></li>
+        <li class="color3"><a href="#">Member Info</a></li>
+      </ul>
+    </nav>
+  </div>
+  <br>
+  <!-- main content-->
+  <div class="info-main">
+
+    <div class="infoheader">
+      <div class="infopara">
+        <span class="infospan">Member Information</span>
+        <p>If you would like to sign-up for a free class or reserve a spot or if you would like to get some information on a upcoming class. Feel free to sumbmit any comments or requests. <br> Thank You! </p>
+        <br>
+
+      </div>
+    </div>
+
+    <div class="formcontainer">
+      <form method="get" action="thankyou.html">
+        <fieldset class="fieldpad">
+          <legend>Contact Information</legend>
+          <label for="fname" class="contact">
+            First Name:
+            <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+          </label>
+          <label for="lname" class="contact">
+            Last Name:
+            <input type="text" name="lname" id="lname" required placeholder="Last Name" />
+          </label>
+          <label for="email" class="contact">
+            Email:
+            <input type="email" name="email" id="email" required placeholder="Email" />
+          </label>
+          <label for="phone" class="contact">
+            Phone:
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required placeholder="Phone" />
+          </label>
+          <label for="method" class="contact">Method of Communication:
+            <select name="method" id="method" class="method">
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset class="fieldpad">
+          <legend> Courses Offered </legend>
+          <label for="advancedcrosstraining" class="contact">
+            <input type="checkbox" name="course" id="advancedcrosstraining" value="Advanced Cross Training" /> Advanced Cross Training
+          </label>
+          <label for="bodycombat" class="contact">
+            <input type="checkbox" name="course" id="bodycombat" value="Body Combat" /> Body Combat
+          </label>
+          <label for="bodypump" class="contact">
+            <input type="checkbox" name="course" id="bodypump" value="Body Pump" /> Body Pump
+          </label>
+          <label for="crosstraining" class="contact">
+            <input type="checkbox" name="course" id="crosstraining" value="Cross Training" /> Cross Training
+          </label>
+          <label for="mixxedfit" class="contact">
+            <input type="checkbox" name="course" id="mixxedfit" value="MixxedFIT" /> MixxedFIT
+          </label>
+          <label for="sprint" class="contact">
+            <input type="checkbox" name="course" id="sprint" value="Sprint" /> Sprint
+          </label>
+          <label for="spin" class="contact">
+            <input type="checkbox" name="course" id="spin" value="Spin" /> Spin
+          </label>
+          <label for="stepinterval" class="contact">
+            <input type="checkbox" name="course" id="stepinterval" value="Step Interval" /> Step Interval
+          </label>
+          <label for="zumba" class="contact">
+            <input type="checkbox" name="course" id="zumba" value="Zumba" /> Zumba
+          </label>
+          <div class="timeofday">
+
+
+            <label for="am" class="contact">Time of Day: <br>
+              <input type="radio" name="meridiem" id="am" value="AM" /> AM
+            </label>
+            <label for="pm" class="contact">
+              <input type="radio" name="meridiem" id="pm" value="PM" /> PM
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="fieldpad">
+          <legend> Additional Comments </legend>
+          <label for="info" class="contact"></label>
+          <textarea name="info" id="info" rows="4" cols="60" placeholder="Any addtional information"></textarea>
+        </fieldset>
+        <input class="submit" type="submit" value="submit" />
+      </form>
+    </div>
+
+  </div>
+
+  <br>
+  <!-- bottom content-->
+  <div class="bottom">
+
+  </div>
+
+  <!-- footer content-->
+  <footer>
+
+    <div class="footcontainer">
+
+      <div class="hours">
+        <span class="operation">Hours of Operation</span><br>
+        <span>Mon - Fri: Open 24 Hours</span><br>
+        <span>Sat: Open 24 Hours</span><br>
+        <span>Sun: Open 24 Hours</span>
+      </div>
+
+      <div class="address">
+        Fit For Fun Fitness Club <br>
+        3777 N. State Hwy. H, <br>
+        Springfield, MO 65803 <br>
+        (417) 447-7500
+
+      </div>
+
+      <div class="footerlinks">
+        <ul class="links">
+          <li class="links"><a href="index.html" class="links">Home</a>
+          </li>
+          <li class="links"><a href="classes.html" class="links">Classes</a>
+          </li>
+          <li class="links"><a href="#" class="links">Member Info</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <p class="copyright"> Nakia Crumbo, June 27 2020, Copyright &#169;</p>
+  </footer>
+</body>
+
+</html>
